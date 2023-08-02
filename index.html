@@ -8,6 +8,11 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="main.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
@@ -129,57 +134,75 @@
       <h2 class="text-[24px] text-black text-center font-bold">Accept Payments with Razorpay Payment Suite
       </h2>
       <div class="w-6 h-1 bg-greenLight absolute top-16 left-1/2 translate-x-[-50%]"></div>
-      <div class="w-4/5 border mx-auto my-20 relative bg-white rounded-lg">
-        <div>
-          <h3 class="text-[28px] leading-[1.625] font-semibold font-mullish"> Supercharge your business with the <br>
+      <div class="w-11/12 min-h-[520px] border mx-auto my-20 relative bg-white rounded-lg flex">
+        <div class="p-12 flex flex-col space-y-8">
+          <h3 class="text-[28px] leading-[2.8rem] font-[700] font-mullish"> Supercharge your business with the <br>
             all‑powerful
             <span class="text-lightBlue">Payment
               Gateway</span>
           </h3>
-          <ul>
-            <li>
+          <ul class="flex flex-col space-y-2">
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
               <span>100+ Payment Methods</span>
+
             </li>
-            <li>
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
+
               <span>
                 Industry Leading Success Rate
               </span>
             </li>
-            <li>
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
+
               <span>Superior Checkout Experience
               </span>
             </li>
-            <li>
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
+
               <span>
                 Easy to Integrate
               </span>
             </li>
-            <li>
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
+
               <span>Instant Settlements from day 1
               </span>
             </li>
-            <li>
+            <li class="text-[16px] text-black font-mullish">
+              <i class="text-greenLight inline-block mr-2" data-feather="check"></i>
+
               <span>In-depth Reporting and Insights
               </span>
             </li>
           </ul>
 
-          <div>
-            <button>
-              Sign Up Now
+          <div class="flex space-x-4 items-center">
+            <button
+              class="px-5 py-3  text-white text-base group font-mullish transition-all duration-200 hover:bg-lightBlue500 tracking-wider rounded-md font-bold bg-lightBlue">
+              Sign Up Now <i class="fa fa-arrow-right "></i>
             </button>
-            <div>
-
-              <a href="" class="">
-                Know More
+            <div class="group">
+              <a href=""
+                class="px-5 py-3 text-lightBlue text-base group-hover:text-deepBlueHead transition-all duration-200 font-mullish tracking-wider font-bold">
+                Know More <i class="fa fa-angle-right text-[12px]"></i>
               </a>
             </div>
           </div>
         </div>
-        <img src="images/payment-suite.png" alt="payment-suite">
+        <img class="absolute max-w-[600px] right-0 top-0" src="images/payment-suite.png" alt="payment-suite">
       </div>
     </div>
   </section>
+
+  <script>
+    feather.replace()
+  </script>
+
 </body>
 
 </html>
