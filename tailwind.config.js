@@ -16,9 +16,11 @@ module.exports = {
         lightGray: "#e2e2e2",
         grayBlue: "#344a6c",
         deepBlueHead: "#162f56",
-        gray2: "#525a76"
+        gray2: "#525a76",
+        featureColor: "#181c2e"
       }
     },
+    
   },
   plugins: [],
 }
